@@ -15,7 +15,7 @@ const app = express();
 
 //middlewares
 app.use(express.json());
-app.use(cors(" http://localhost:3000"));
+app.use(cors("blood-bank-app.netlify.app"));
 app.use(morgan("dev"));
 
 //routes
